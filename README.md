@@ -1,10 +1,10 @@
 # Cluster Analysis of Breast Cancer
 
-Breast cancer remains one of the most prevalent and concerning health issues affecting women worldwide. Early detection and accurate diagnosis play a pivotal role in improving patient outcomes and survival rates. In this project, we embark on a journey to leverage the power of Machine Learning, specifically the Unsupervised Learning technique of clustering, to aid in the identification and detection of breast cancer based on target attributes.
+Breast cancer remains one of the most prevalent and concerning health issues affecting women worldwide. Early detection and accurate diagnosis are pivotal in improving patient outcomes and survival rates. In this project, we embark on a journey to leverage the power of Machine Learning, precisely the Unsupervised Learning technique of clustering, to aid in the identification and detection of breast cancer based on target attributes.
 
 ## Project Goal
 
-The primary goal of this project is to implement the K-means clustering algorithm, a popular Unsupervised Learning method, on a breast cancer dataset. By doing so, we aim to uncover meaningful patterns and groupings within the data, which can assist in the identification of potentially malignant or benign breast tumors. Unlike supervised learning, where the algorithm is guided by labeled data, clustering involves discovering patterns and structures in unlabeled data, making it particularly suitable for exploratory analysis.
+The primary goal of this project is to implement the K-means clustering algorithm, a popular Unsupervised Learning method, on a breast cancer dataset. By doing so, we aim to uncover meaningful patterns and groupings within the data, which can assist in the identification of potentially malignant or benign breast tumors. Unlike supervised learning, where labeled data guides the algorithm, clustering involves discovering patterns and structures in unlabeled data, making it particularly suitable for exploratory analysis.
 
 ## Dataset
 
@@ -12,9 +12,9 @@ The dataset used in this project can be found on [Kaggle](https://www.kaggle.com
 
 ## Project Structure
 
-1. **Data Loading and Preprocessing**: In this section, we load the breast cancer dataset and perform necessary data preprocessing steps. This includes handling missing values, normalizing or scaling features, and any required data transformations.
+1. **Data Loading and Preprocessing**: In this section, we load the breast cancer dataset and perform the necessary data preprocessing steps. This includes handling missing values, normalizing or scaling features, and any required data transformations.
 
-2. **K-means Clustering**: Here, we implement the K-means clustering algorithm using Python's popular machine learning libraries. We determine the optimal number of clusters through various techniques such as the elbow method or silhouette analysis.
+2. **K-means Clustering**: Here, we implement the K-means clustering algorithm using Python's popular machine learning libraries. We determine the optimal number of clusters through various techniques, such as the elbow method or silhouette analysis.
 
 3. **Cluster Visualization**: We visualize the resulting clusters to gain insights into different breast cancer profiles. Through visualizations, we aim to understand the separation and distribution of instances within each cluster.
 
